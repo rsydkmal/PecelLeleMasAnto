@@ -41,24 +41,24 @@ document.addEventListener("click", function (event) {
 });
 
 // Modal Box
-const itemDetailModal = document.querySelector("#item-detail-modal");
-const itemDetailButtons = document.querySelectorAll(".item-detail-button");
+// const itemDetailModal = document.querySelector("#item-detail-modal");
+// const itemDetailButtons = document.querySelectorAll(".item-detail-button");
 
-itemDetailButtons.forEach((btn) => {
-	btn.onclick = (event) => {
-		itemDetailModal.style.display = "flex";
-		event.preventDefault();
-	};
-});
+// itemDetailButtons.forEach((btn) => {
+// 	btn.onclick = (event) => {
+// 		itemDetailModal.style.display = "flex";
+// 		event.preventDefault();
+// 	};
+// });
 
 // Close Modal Box
-document.querySelector(".modal .close-icon").onclick = (event) => {
-	itemDetailModal.style.display = "none";
-	event.preventDefault();
-};
+// document.querySelector(".modal .close-icon").onclick = (event) => {
+// 	itemDetailModal.style.display = "none";
+// 	event.preventDefault();
+// };
 // Klik di luar elemen
-window.onclick = (event) => {
-	if (event.target === itemDetailModal) {
-		itemDetailModal.style.display = "none";
-	}
-};
+// window.onclick = (event) => {
+// 	if (event.target === itemDetailModal) {
+// 		itemDetailModal.style.display = "none";
+// 	}
+// };
