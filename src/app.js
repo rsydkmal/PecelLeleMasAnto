@@ -16,8 +16,11 @@ document.addEventListener("alpine:init", () => {
 
 	Alpine.data("orders", () => ({
 		items: [
-			{ id: 1, name: "Pecel Ayam", img: "1.jpg", price: 20000 },
-			{ id: 2, name: "Pecel Lele", img: "2.jpg", price: 20000 },
+			{ id: 1, name: "Pecel Ayam", img: "1.jpg", price: 16000 },
+			{ id: 2, name: "Pecel Lele", img: "2.jpg", price: 12000 },
+			{ id: 3, name: "Soto Ayam", img: "3.jpg", price: 13000 },
+			{ id: 4, name: "Nasi Putih", img: "4.jpg", price: 5000 },
+			{ id: 5, name: "Nasi Uduk", img: "5.jpg", price: 6000 },
 		],
 	}));
 
